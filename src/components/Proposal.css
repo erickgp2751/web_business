@@ -1,0 +1,23 @@
+.comparacion {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.tradicional {
+  background-color: #ffeaea;
+  color: #8b0000;
+}
+
+.biodegradable {
+  background-color: #eaffea;
+  color: #22816f;
+}

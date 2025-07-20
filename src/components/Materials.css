@@ -1,0 +1,22 @@
+.materials-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  justify-items: center;
+}
+
+.materials-container .card {
+  margin: 0;
+  width: 100%;
+  max-width: 350px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 16px;
+  flex-grow: 1;
+}

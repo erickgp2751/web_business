@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  max-width: 10%; 
+  height: auto;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column; 
+  margin-left: 5%;
+}
+
+h1 {
+  font-size: 4rem;
+  color: 	#2E4A27;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}

@@ -1,0 +1,7 @@
+td, th {
+  border: 2px solid #000000;
+  padding : 8px;
+  text-align: center;
+  background-color: #a2744e;
+  color : #000000;
+}

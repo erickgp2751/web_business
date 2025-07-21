@@ -7,3 +7,8 @@
   width: 100%;
   height: 100%;
 }
+
+.team h3 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}

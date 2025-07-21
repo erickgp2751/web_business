@@ -1,6 +1,6 @@
 const EnvironmentalImpact = () => {
   return (
-    <section>
+    <section className="environmental-impact-section">
       <h2>Environmental Impact</h2>
       <p>
         Globally, the use of plastic mulch generates a significant amount of
@@ -9,7 +9,7 @@ const EnvironmentalImpact = () => {
         agriculture each year, primarily as mulch.
       </p>
 
-      <table>
+      <table className="environmental-impact-table">
         <thead>
           <tr>
             <th></th>

@@ -1,22 +1,22 @@
 const Proposal = () => {
   return (
     <section className="propuesta">
-  <h2>Our innotvative proposal</h2>
-  <div className="comparacion">
-    <div className="tarjeta tradicional">
+  <h2>Our innovative proposal</h2>
+  <div className="comparation">
+    <div className="container traditional">
       <h3>Traditional Mulching</h3>
       <ul>
-        <li>☠️ No biodegradable</li>
-        <li>⚠️ Deja residuos plásticos</li>
-        <li>📉 Puede dañar el suelo a largo plazo</li>
+        <li>☠️ Not biodegradable</li>
+        <li>⚠️ Leaves plastic waste</li>
+        <li>📉 It can damage the soil in the long term.</li>
       </ul>
     </div>
-    <div className="tarjeta biodegradable">
+    <div className="container biodegradable">
       <h3> Biodegradable Mulching</h3>
       <ul>
         <li>✅ 100% biodegradable</li>
-        <li>🌱 Mejora la estructura del suelo</li>
-        <li>♻️ Sin residuos plásticos</li>
+        <li>🌱 Improves soil structure</li>
+        <li>♻️ No plastic waste</li>
       </ul>
     </div>
   </div>

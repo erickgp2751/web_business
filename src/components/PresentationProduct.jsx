@@ -21,9 +21,7 @@ const PresentationProduct = () => {
         <img src="/src/assets/images/mulch.webp" alt="Product" />
       </section>
 
-      <footer>
-        <button>know it now</button>
-      </footer>
+      <button>know it now</button>
     </div>
   );
 };

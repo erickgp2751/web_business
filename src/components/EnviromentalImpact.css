@@ -7,14 +7,14 @@ td, th {
   font-size: 1.2rem;
 }
 
-.dimensions-table {
+.environmental-impact-table {
   width: 80%;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
 }
 
-.dimensions-section p {
+.environmental-impact-section p {
   font-size: 1.2rem;
   margin: 20px;
 }

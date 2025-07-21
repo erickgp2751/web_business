@@ -1,6 +1,6 @@
 const Dimensions = () => {
   return (
-    <section>
+    <section className="dimensions-section">
       <h2>Dimensions</h2>
       <p>
         For sale and to fulfill the purpose of agricultural mulch, the

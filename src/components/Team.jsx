@@ -6,10 +6,11 @@ const Team = () => {
         <div>
           <h2>Meet Our Team</h2>
           <h3>FOUR MEN ASSOCIATION</h3>
+          <p>Who is doing what in your team?</p>
           <div className="team-container">
             <Card
               title="Erick Eduardo Gonzalez Perez"
-              content=""
+              content="Marketing Specialist and Web Developer"
               src="/src/assets/images/systems.webp"
             />
             <Card

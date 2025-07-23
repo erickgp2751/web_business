@@ -2,7 +2,7 @@ const Milestones = () => {
   return (
     <div>
       <h2>Milestones</h2>
-      <p>What big goals do you hope to achieve in the next months or year?</p>
+      <p>Revenue will come from direct quilt sales, subscription programs, online sales, and custom options, such as specific designs or colors requested by the customer.</p>
     </div>
   );
 };

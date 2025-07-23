@@ -14,18 +14,18 @@ const Team = () => {
               src="/src/assets/images/systems.webp"
             />
             <Card
-              title="Javier"
-              content=""
+              title="Javier Castañon Cortez"
+              content="Responsible for quotations and finances for raw materials and production."
               src="/src/assets/images/mechanic.webp"
             />
             <Card
-              title="Vicente"
-              content=""
+              title="Vicente Martinez Hernandez"
+              content="CEO and Founder"
               src="/src/assets/images/office.webp"
             />
             <Card
-              title="Manuel"
-              content=""
+              title="Victor Manuel Hernandez Hernandez"
+              content="Logistics and Operations Manager"
               src="/src/assets/images/entrepreneur.webp"
             />
           </div>

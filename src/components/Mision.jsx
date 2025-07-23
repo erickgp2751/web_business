@@ -2,7 +2,7 @@ const Mision = () => {
   return (
     <div className="mision">
       <h2>Mision</h2>
-      <p>What your business does and why it matters.</p>
+      <p>To offer quality agricultural mulches that improve crop yield and promote more efficient and sustainable agriculture.</p>
     </div>
   );
 };

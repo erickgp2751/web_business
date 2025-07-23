@@ -2,7 +2,7 @@ const Expenses = () => {
   return (
     <div>
       <h2>Expenses</h2>
-      <p>What are the main costs of running your business?</p>
+      <p>The main activities that would generate costs would be: acquisition of materials (organic textiles, biodegradable filler), production and assembly, marketing and advertising, distribution and storage, administrative expenses, and online platform development costs.</p>
     </div>
   );
 };

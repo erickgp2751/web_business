@@ -2,7 +2,10 @@ const Problem = () => {
   return (
     <div className="problem">
       <h2>Problem</h2>
-      <p>What common problem or need does your business solve?</p>
+      <p>
+        Currently, agricultural mulch is made of a material that is not easy to
+        disintegrate and causes environmental damage.
+      </p>
     </div>
   );
 };

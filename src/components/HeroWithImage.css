@@ -1,0 +1,28 @@
+
+.hero-container {
+  width: 100vw; 
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.hero-title {
+  color: #69A14D;
+  font-size: 3rem;
+}
+
+.hero-description {
+  color: #ffffff;
+  font-size: 1.5rem;
+}

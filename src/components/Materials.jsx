@@ -1,4 +1,5 @@
 import Card from "./Card";
+import "./materials.css";
 
 const Materials = () => {
   return (

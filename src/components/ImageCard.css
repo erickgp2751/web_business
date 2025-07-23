@@ -1,0 +1,28 @@
+
+.alternating-layout {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.alternating-layout-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.alternating-layout-content {
+  padding: 20px;
+}
+
+.alternating-layout-content h2 {
+  margin-top: 0;
+}
+
+.alternating-layout-content p {
+  margin-bottom: 0;
+}

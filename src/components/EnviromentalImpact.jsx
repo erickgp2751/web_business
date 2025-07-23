@@ -1,67 +1,50 @@
 const EnvironmentalImpact = () => {
   return (
-    <section className="environmental-impact-section">
+    <section className="eco-impact">
       <h2>Environmental Impact</h2>
-      <p>
-        Globally, the use of plastic mulch generates a significant amount of
-        waste. The Food and Agriculture Organization of the United Nations
-        estimates that between 1.5 and 2 million tons of plastic are used in
-        agriculture each year, primarily as mulch.
-      </p>
+      
+      <div className="eco-table-container">
+        <table className="eco-comparison">
+          <thead>
+            <tr>
+              <th className="eco-factor">Factor</th>
+              <th className="eco-plastic">Plastic Mulch<br/>(Polyethylene)</th>
+              <th className="eco-bio">Biodegradable Mulch</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="eco-factor">Biodegradability</td>
+              <td className="eco-negative">Non-biodegradable (lasts centuries)</td>
+              <td className="eco-positive">Eco-friendly, decomposes in months</td>
+            </tr>
+            <tr>
+              <td className="eco-factor">CO₂ Emissions</td>
+              <td className="eco-negative">High (fossil fuel-intensive)</td>
+              <td className="eco-positive">Low (uses natural materials)</td>
+            </tr>
+            <tr>
+              <td className="eco-factor">Microplastics</td>
+              <td className="eco-negative">Pollutes soil and water</td>
+              <td className="eco-positive">Zero waste, safe for ecosystems</td>
+            </tr>
+            <tr>
+              <td className="eco-factor">Soil Health</td>
+              <td className="eco-negative">Degrades soil quality</td>
+              <td className="eco-positive">Nutrient-rich, improves soil structure</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-      <table className="environmental-impact-table">
-        <thead>
-          <tr>
-            <th></th>
-            <th>Polyethylene/Polypropylene</th>
-            <th>Biodagradable Mulching</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <th>Biodegradability</th>
-            <td>Non-biodegradable; remains in the environment for centuries.</td>
-            <td>Completely biodegradable; decomposes in the soil within months.</td>
-          </tr>
-
-          <tr>
-            <th>CO2 emissions in production</th>
-            <td>High: energy-intensive process of fossil fuels.</td>
-            <td>Low: uses natural materials and less energy-intensive processes.</td>
-          </tr>
-
-          <tr>
-            <th>Microplastic contamination</th>
-            <td>It generates microplastics that contaminate terrestrial and marine ecosystems.</td>
-            <td>It does not generate microplastics; it decomposes completely without plastic waste.</td>
-          </tr>
-
-          <tr>
-            <th>Recycling</th>
-            <td>Recyclable, but the recycling rate is low and expensive.</td>
-            <td>It does not require recycling, as it decomposes naturally.</td>
-          </tr>
-
-          <tr>
-            <th>Impact on fauna</th>
-            <td>Microplastics can be ingested by wildlife, affecting their health.</td>
-            <td>It has no negative impact on wildlife; it integrates naturally into the soil.</td>
-          </tr>
-
-          <tr>
-            <th>Durability</th>
-            <td>It can last for years in the field.</td>
-            <td>Less durable, decomposes according to the growing cycle.</td>
-          </tr>
-
-          <tr>
-            <th>Effects on the soil</th>
-            <td>It does not provide benefits to the soil, it can accumulate and affect its quality.</td>
-            <td>It provides nutrients to the soil and improves its structure as it decomposes.</td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="eco-callout">
+        <h3>Why Go Biodegradable?</h3>
+        <ul className="eco-benefits">
+          <li>✅ <strong>Planet-friendly:</strong> 100% decomposable</li>
+          <li>✅ <strong>Clean farming:</strong> No microplastic pollution</li>
+          <li>✅ <strong>Soil booster:</strong> Adds nutrients naturally</li>
+        </ul>
+      </div>
     </section>
   );
 };

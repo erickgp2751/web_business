@@ -2,7 +2,11 @@ const RevenueStreams = () => {
   return (
     <div className="revenue-streams">
       <h2>Revenue Streams</h2>
-      <p>How will your business make money? (sales, subscriptions, ads, etc.)</p>
+      <p>
+        Revenue will come from direct quilt sales, subscription programs, online
+        sales, and custom options, such as designs or colors. Specify upon
+        customer request.
+      </p>
     </div>
   );
 };

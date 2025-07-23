@@ -11,17 +11,17 @@ const Header = () => {
         </div>
         <div className="header-text">
           <h1>BIOM MULCHING</h1>
-          <p>Here goes the slogan</p>
+          <p>Protect your crop, boost your harvest</p>
         </div>
         <nav className="header-nav">
           <a href="#servicios" className="nav-link">
-            Servicios
+            Services
           </a>
           <a href="#nosotros" className="nav-link">
-            Nosotros
+            About Us
           </a>
           <a href="#contacto" className="nav-link">
-            Contacto
+            Contact
           </a>
         </nav>
       </div>

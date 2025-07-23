@@ -2,10 +2,7 @@ const Proposal = () => {
   return (
     <section className="propuesta">
       <h2>Our innovative proposal</h2>
-      <p>
-        How your product/service solves that problem in a unique or creative
-        way.
-      </p>
+      <p> Our goal is to replace its pollution and support the reduction of plastic use, helping farmers grow their crops. Mulching can even be used as compost, depending on the soil where it is intended to be used.</p>
       <div className="comparation">
         <div className="container traditional">
           <h3>Traditional Mulching</h3>

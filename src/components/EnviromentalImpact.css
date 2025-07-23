@@ -1,20 +1,109 @@
-td, th {
-  border: 2px solid #000000;
-  padding : 8px;
+.eco-impact {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.eco-title {
+  color: #1a5e20;
+  font-size: 1.7rem;
   text-align: center;
-  background-color: #E8DDC6;
-  color : #000000;
-  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
-.environmental-impact-table {
-  width: 80%;
+.eco-highlight {
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+.eco-table-container {
+  overflow-x: auto;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.eco-comparison {
+  width: 100%;
   border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 500px;
 }
 
-.environmental-impact-section p {
-  font-size: 1.2rem;
-  margin: 20px;
+.eco-comparison th, 
+.eco-comparison td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.eco-factor {
+  background-color: #2e7d32;
+  color: white;
+  font-weight: 600;
+  width: 25%;
+}
+
+.eco-plastic {
+  background-color: #d32f2f;
+  color: white;
+  font-weight: 500;
+  width: 37.5%;
+}
+
+.eco-bio {
+  background-color: #388e3c;
+  color: white;
+  font-weight: 500;
+  width: 37.5%;
+}
+
+.eco-negative {
+  background-color: #ffebee;
+  color: #c62828;
+  font-weight: 500;
+}
+
+.eco-positive {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.eco-callout {
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-left: 4px solid #43a047;
+}
+
+.eco-callout h3 {
+  color: #1b5e20;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.eco-benefits {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.8;
+}
+
+.eco-benefits li {
+  margin-bottom: 0.5rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .eco-title {
+    font-size: 1.4rem;
+  }
+  
+  .eco-comparison th, 
+  .eco-comparison td {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
 }

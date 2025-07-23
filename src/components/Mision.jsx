@@ -1,8 +1,14 @@
+import ImageCard from "./ImageCard";
+
 const Mision = () => {
   return (
     <div className="mision">
-      <h2>Mision</h2>
-      <p>To offer quality agricultural mulches that improve crop yield and promote more efficient and sustainable agriculture.</p>
+      <ImageCard
+        image="/src/assets/images/mision.webp"
+        alt="Mission Image"
+        title="Mision"
+        text="To offer quality agricultural mulches that improve crop yield and promote more efficient and sustainable agriculture."
+      />
     </div>
   );
 };

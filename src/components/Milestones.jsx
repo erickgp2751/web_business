@@ -2,7 +2,7 @@ const Milestones = () => {
   return (
     <div>
       <h2>Milestones</h2>
-      <p>Revenue will come from direct quilt sales, subscription programs, online sales, and custom options, such as specific designs or colors requested by the customer.</p>
+      <p>We aspire to be the number one choice in agricultural mulch in Mexico. By 2030, we aim to cover at least 20% of the market, helping more farmers improve their crops efficiently and sustainably.</p>
     </div>
   );
 };

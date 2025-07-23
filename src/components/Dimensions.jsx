@@ -1,55 +1,27 @@
 const Dimensions = () => {
   return (
     <section className="dimensions-section">
-      <h2>Dimensions</h2>
+      <h2>Optimal Dimensions for Crop Success</h2>
       <p>
-        For sale and to fulfill the purpose of agricultural mulch, the
-        dimensions must be adapted to the most common types of crops and
-        agricultural practices.
+        Carefully designed to maximize efficiency and adaptability for all types of plantations.
       </p>
-      <table className="dimensions-table">
-        <thead>
-          <tr>
-            <th></th>
-            <th>Common Dimensions</th>
-            <th>Applicable Dimensions</th>
-          </tr>
-        </thead>
 
-        <tbody>
-          <tr>
-            <th>Width</th>
-            <td>
-              1 m, 1.2 m, and 1.5 m. Allows coverage of one or two rows of crops
-              and is suitable for most plantations.
-            </td>
-            <td>1.2 m</td>
-          </tr>
-          <tr>
-            <th>Length</th>
-            <td>
-              Between 10 and 50 m for small and medium-sized applications and up
-              to 100 m or more for commercial use on large fields.
-            </td>
-            <td>50 m</td>
-          </tr>
-          <tr>
-            <th>Thickness</th>
-            <td>
-              1 to 2 mm for short-season crops or moderate conditions, and 2 to
-              3 mm for more demanding soils or areas with extreme climates,
-              where mulch needs to be more durable
-            </td>
-            <td>From 1.5 to 2 mm</td>
-          </tr>
-        </tbody>
-      </table>
-      <p>
-        These dimensions are optimal, ensuring that the width and thickness are
-        sufficient to block sunlight and retain moisture in the root zone,
-        ensuring the mulch lasts 3 to 6 months (enough for most crops and
-        biodegrades without leaving plastic residue), meeting the needs of most
-        growers, and simplifying adaptation to different crops.{" "}
+      <ul className="dimensions-list">
+        <li>
+          <strong>Width:</strong> <span className="highlight">1.2 m</span> (covers 1–2 crop rows, ideal for most plantations).
+        </li>
+        <li>
+          <strong>Length:</strong> <span className="highlight">50 m</span> (versatile for small/medium fields; up to 100 m for large-scale use).
+        </li>
+        <li>
+          <strong>Thickness:</strong> <span className="highlight">1.5–2 mm</span> (durable enough for extreme climates, blocks sunlight, and retains moisture).
+        </li>
+      </ul>
+
+      <p className="dimensions-summary">
+        These <strong>perfectly tailored</strong> dimensions ensure mulch lasts 3–6 months, 
+        biodegrading without residue—meeting <strong>growers' needs</strong> with 
+        <strong>sunlight-blocking</strong> and <strong>moisture-retaining</strong> efficiency.
       </p>
     </section>
   );

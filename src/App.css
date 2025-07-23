@@ -15,7 +15,8 @@ body {
 p {
   font-size: 1.2rem;
   text-align: center;
-  
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h2{
@@ -29,7 +30,7 @@ h2{
 }
 
 button {
-  background-color: 	#2E4A27;
+  background-color: 	#69A14D;
   color: white;
   border: none;
   padding: 1rem 2rem;

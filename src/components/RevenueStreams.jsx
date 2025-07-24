@@ -1,12 +1,13 @@
+import HeroWithImage from "./HeroWithImage";
+
 const RevenueStreams = () => {
   return (
     <div className="revenue-streams">
-      <h2>Revenue Streams</h2>
-      <p>
-        Revenue will come from direct quilt sales, subscription programs, online
-        sales, and custom options, such as designs or colors. Specify upon
-        customer request.
-      </p>
+      <HeroWithImage
+        title="Revenue Streams"
+        description="Income will come from direct sales of quilts, subscription programs, online sales, and customized options, such as designs or colors."
+        image="/src/assets/images/revenues.webp"
+      />
     </div>
   );
 };

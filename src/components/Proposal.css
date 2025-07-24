@@ -4,13 +4,16 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 2rem;
+  padding: 0 1rem; 
 }
 
-.container{
+.container {
   border-radius: 1rem;
   padding: 1.5rem;
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 1rem; 
 }
 
 .traditional {
@@ -21,4 +24,46 @@
 .biodegradable {
   background-color: #eaffea;
   color: #00812b;
+}
+
+.model-image {
+  width: 30%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.model-image {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 0.5rem;
+  margin: 2rem auto; 
+  display: block;
+}
+
+.propuesta {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+
+@media (min-width: 768px) {
+  .model-image {
+    width: 60%; 
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 280px; 
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .model-image {
+    width: 40%; 
+  }
 }

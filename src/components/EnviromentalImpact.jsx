@@ -36,15 +36,6 @@ const EnvironmentalImpact = () => {
           </tbody>
         </table>
       </div>
-
-      <div className="eco-callout">
-        <h3>Why Go Biodegradable?</h3>
-        <ul className="eco-benefits">
-          <li>✅ <strong>Planet-friendly:</strong> 100% decomposable</li>
-          <li>✅ <strong>Clean farming:</strong> No microplastic pollution</li>
-          <li>✅ <strong>Soil booster:</strong> Adds nutrients naturally</li>
-        </ul>
-      </div>
     </section>
   );
 };

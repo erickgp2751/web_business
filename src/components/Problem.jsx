@@ -4,9 +4,8 @@ const Problem = () => {
     <div className="problem">
       <HeroWithImage
         title="Problem"
-        description="Currently, agricultural mulch is made of a material that is not easy to
-        disintegrate and causes environmental damage."
-        image="/src/assets/images/soil-degration.webp"
+        description="Currently, agricultural mulch is made of a slow-to-decompose material that causes environmental damage."
+        image="/src/assets/images/soil.webp"
         button="Learn More"
       />
     </div>

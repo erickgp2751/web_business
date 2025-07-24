@@ -1,11 +1,14 @@
+import ImageCard from "./ImageCard";
 const Identity = () => {
   return (
     <div className="identity">
-      <h2>Identity</h2>
-      <p>
-        We project that in the future they will see our product as a great
-        innovation, an efficient, reliable, and cost-saving solution.
-      </p>
+      <ImageCard
+      imageOnLeft={false} 
+        image="/src/assets/images/qualityProduct.webp"
+        alt="Identity Image"
+        title="Identity"
+        text="We anticipate our product being perceived as a reliable and cost-saving solution in the future."
+      />
     </div>
   );
 };

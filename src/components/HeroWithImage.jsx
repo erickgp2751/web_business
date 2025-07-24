@@ -1,7 +1,7 @@
 
 import './HeroWithImage.css';
 
-function HeroWithImage({ title, description, image, button }) {
+function HeroWithImage({ title, description, image}) {
   return (
     <div 
       className="hero-container" 
@@ -10,7 +10,6 @@ function HeroWithImage({ title, description, image, button }) {
       <div className="hero-content">
         <h1 className="hero-title">{title}</h1>
         <p className="hero-description">{description}</p>
-        <button className="hero-button">{button}</button>
       </div>
     </div>
   );

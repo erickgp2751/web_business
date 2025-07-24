@@ -10,7 +10,7 @@ import "./components/TargetMarket.css";
 import EnviromentalImpact from "./components/EnviromentalImpact";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
-import Mision from "./components/Mision";
+import Mission from "./components/Mission";
 import Identity from "./components/Identity";
 import Problem from "./components/Problem";
 import TarjetMarket from "./components/TargetMarket";
@@ -30,7 +30,7 @@ function App() {
         <Header></Header>
         
         <Introduction></Introduction>
-        <Mision></Mision>
+        <Mission></Mission>
         <Identity></Identity>
         <Problem></Problem>
         <Proposal></Proposal>

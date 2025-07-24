@@ -1,10 +1,15 @@
 import Carousel from "./Carousel";
 
+import envPeopleImg from "../assets/images/target_market/env-people.webp";
+import ecologicalConsumerImg from "../assets/images/target_market/ecological-consumer.webp";
+import goodStoresImg from "../assets/images/target_market/goodstores.webp";
+import farmerImg from "../assets/images/target_market/farmer.webp";
+
 const images = [
-  <img src="/src/assets/images/target_market/env-people.webp" alt="Imagen 1" />,
-  <img src="/src/assets/images/target_market/ecological-consumer.webp" alt="Imagen 2" />,
-  <img src="/src/assets/images/target_market/goodstores.webp" alt="Imagen 3" />,
-  <img src="/src/assets/images/target_market/farmer.webp" alt="Imagen 4" />,
+  <img src={envPeopleImg} alt="Environmentally conscious people" />,
+  <img src={ecologicalConsumerImg} alt="Ecological consumer" />,
+  <img src={goodStoresImg} alt="Good stores" />,
+  <img src={farmerImg} alt="Farmer" />,
 ];
 
 const TarjetMarket = () => {

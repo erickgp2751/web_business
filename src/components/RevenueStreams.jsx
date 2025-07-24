@@ -1,4 +1,5 @@
 import HeroWithImage from "./HeroWithImage";
+import image from "../assets/images/revenues.webp";
 
 const RevenueStreams = () => {
   return (
@@ -6,7 +7,7 @@ const RevenueStreams = () => {
       <HeroWithImage
         title="Revenue Streams"
         description="Income will come from direct sales of quilts, subscription programs, online sales, and customized options, such as designs or colors."
-        image="/src/assets/images/revenues.webp"
+        image={image}
       />
     </div>
   );

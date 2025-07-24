@@ -1,3 +1,4 @@
+import image from "../assets/images/model.webp";
 const Proposal = () => {
   return (
     <section className="propuesta">
@@ -21,7 +22,7 @@ const Proposal = () => {
           </ul>
         </div>
       </div>
-      <img className="model-image" src="/src/assets/images/model.webp"></img>
+      <img className="model-image" src={image}></img>
     </section>
   );
 };

@@ -1,7 +1,6 @@
 import "./App.css";
 import "./components/Header.css";
 import "./components/Proposal.css";
-import "./components/Dimensions.css";
 import "./components/Team.css";
 import "./components/Contact.css";
 import "./components/Card.css";

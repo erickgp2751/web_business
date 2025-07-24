@@ -1,4 +1,9 @@
 import Card from "./Card";
+import erickImage from "../assets/images/systems.webp";
+import javierImage from "../assets/images/mechanic.webp";
+import vicenteImage from "../assets/images/office.webp";
+import victorImage from "../assets/images/entrepreneur.webp";
+
 const Team = () => {
   return (
     <div className="team">
@@ -10,22 +15,22 @@ const Team = () => {
             <Card
               title="Erick Eduardo Gonzalez Perez"
               content="Marketing Specialist and Web Developer"
-              src="/src/assets/images/systems.webp"
+              src={erickImage}
             />
             <Card
               title="Javier Castañon Cortez"
               content="Responsible for quotations and finances for raw materials and production."
-              src="/src/assets/images/mechanic.webp"
+              src={javierImage}
             />
             <Card
               title="Vicente Martinez Hernandez"
               content="CEO and Founder"
-              src="/src/assets/images/office.webp"
+              src={vicenteImage}
             />
             <Card
               title="Victor Manuel Hernandez Hernandez"
               content="Logistics and Operations Manager"
-              src="/src/assets/images/entrepreneur.webp"
+              src={victorImage}
             />
           </div>
         </div>

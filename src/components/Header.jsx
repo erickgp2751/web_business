@@ -1,10 +1,12 @@
+import logo from "../assets/images/Logo.webp"; 
+
 const Header = () => {
   return (
     <header className="header">
       <div className="header-content">
         <div className="logo-container">
           <img
-            src="/src/assets/images/Logo.webp"
+            src={logo}
             alt="Logo BIOM MULCHING"
             className="logo"
           />

@@ -1,10 +1,11 @@
 import ImageCard from "./ImageCard";
+import image from "../assets/images/qualityProduct.webp";
 const Identity = () => {
   return (
     <div className="identity">
       <ImageCard
       imageOnLeft={false} 
-        image="/src/assets/images/qualityProduct.webp"
+        image={image}
         alt="Identity Image"
         title="Identity"
         text="We anticipate our product being perceived as a reliable and cost-saving solution in the future."

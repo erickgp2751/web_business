@@ -20,7 +20,6 @@ import RevenueStreams from "./components/RevenueStreams";
 import MarketingActivities from "./components/MarketingActivities";
 import Proposal from "./components/Proposal";
 import Materials from "./components/Materials";
-import Dimensions from "./components/Dimensions";
 import Expenses from "./components/Expenses";
 import Team from "./components/Team";
 import Milestones from "./components/Milestones";
@@ -37,7 +36,6 @@ function App() {
         <Problem></Problem>
         <Proposal></Proposal>
         <Materials></Materials>
-        <Dimensions></Dimensions>
         <EnviromentalImpact></EnviromentalImpact>
         <TarjetMarket></TarjetMarket>
         <Competition></Competition>

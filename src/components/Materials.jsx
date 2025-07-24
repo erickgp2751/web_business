@@ -38,6 +38,7 @@ const Materials = () => {
             src="/src/assets/images/naturalDyes.webp"
           />
         </div>
+        <p className="materials-description">Carefully designed to maximize efficiency and adapt to all types of crops. Its perfectly tailored long-distance dimensions guarantee six-months of mulching, biodegrade without leaving residue, and meet growers' needs with efficient moisture retention and light blocking.</p>
       </div>
     </section>
   );

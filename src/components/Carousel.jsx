@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './Carousel.css';
 
@@ -19,8 +18,12 @@ function Carousel({ items }) {
         &#10094;
       </button>
       
-      <div className="carousel-item">
-        {items[currentIndex]}
+      <div className="carousel-container">
+        <div className="carousel-item">
+          {React.cloneElement(items[currentIndex], {
+            className: 'carousel-image'
+          })}
+        </div>
       </div>
       
       <button className="carousel-button right" onClick={goToNext}>

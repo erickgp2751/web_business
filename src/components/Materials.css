@@ -35,11 +35,8 @@
 
 .card-content p {
   margin: 0;
-  font-size: 1rem;
-  color: #2b2727;
 }
 
-/* Responsive Grid Adjustments */
 @media (max-width: 900px) {
   .materials-container {
     grid-template-columns: repeat(2, 1fr);

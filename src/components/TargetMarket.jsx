@@ -13,9 +13,7 @@ const TarjetMarket = () => {
       <section>
         <h2>Target Market</h2>
         <p>
-          People concerned about the environment, buyers of organic products,
-          home decor stores, and farmers looking for a natural, chemical-free
-          way to mulch and care for the soil.
+          Farmers looking for a natural, chemical-free way to cover and maintain the soil, and buyers of organic products.
         </p>
         <Carousel items={images} />
       </section>
